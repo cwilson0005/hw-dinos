@@ -9,4 +9,8 @@ Park.prototype.addDino = function(species, diet, visitors) {
   this.dinos.push(dino);
 };
 
+Park.prototype.removeDino = function() {
+  this.dinos.pop();
+};
+
 module.exports = Park;
